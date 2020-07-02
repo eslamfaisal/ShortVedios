@@ -1,0 +1,2 @@
+include ':app', ':toro-core', ':toro-exoplayer'
+rootProject.name = "ShortVideos"

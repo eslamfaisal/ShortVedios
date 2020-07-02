@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="VideoActivityTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">#000</item>
+        <item name="colorPrimaryDark">#000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+<!--        <item name="android:colorBackground">@color/colorBackground</item>-->
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@android:color/black</item>
+    </style>
+
+    <style name="VideoActivity.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@android:color/black</item>
+    </style>
+
+
+    <style name="Facebook.Button.Feed" parent="android:Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Caption</item>
+    </style>
+
+    <!--    <style name="VideoActivityTheme.NoActionBar.Launcher" parent="VideoActivity.NoActionBar">-->
+    <!--        <item name="android:windowBackground">@drawable/bg_launcher</item>-->
+    <!--    </style>-->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Toro.Dialog.Fullscreen" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+    </style>
+
+    <style name="Toro.Dialog.Fullscreen.NoTitle">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Toro.Theme.Board" parent="Toro.Dialog.Fullscreen.NoTitle">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="DebugText" parent="Widget.AppCompat.Button.Small">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <color name="black">#000000</color>
+</resources>
