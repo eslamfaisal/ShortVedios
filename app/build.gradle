@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -78,4 +79,7 @@ dependencies {
     implementation "org.jsoup:jsoup:1.12.1"
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'com.danikula:videocache:2.7.1'
+
+    //firebase
+    implementation 'com.google.firebase:firebase-analytics:17.4.3'
 }
